@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "573397067568",
+    "firebase_url": "https://hallsale-fca14.firebaseio.com",
+    "project_id": "hallsale-fca14",
+    "storage_bucket": "hallsale-fca14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573397067568:android:db5b0041f9f39e65",
+        "android_client_info": {
+          "package_name": "com.hallsale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573397067568-ic6k7moeb4jggefmph60jep7e06mbeqi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6LUyAMuRU92bjaA7Tl_6pyGZU2c_jwiQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573397067568-ic6k7moeb4jggefmph60jep7e06mbeqi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
