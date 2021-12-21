@@ -17,7 +17,6 @@ import {
 import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
 import LinearGradient from 'react-native-linear-gradient';
 import LottieView from 'lottie-react-native';
-//import { TouchableHighlight } from 'react-native-gesture-handler';
 import { NavigationEvents, navigate } from 'react-navigation';
 import SignupScreen from './SignupScreen';
 import firebase from 'react-native-firebase';
@@ -39,7 +38,7 @@ export default class LoginScreen extends React.Component {
 	}
 
 	static navigationOptions = {
-		header: null,
+		header: null
 	};
 
 	loginmein = () => {
@@ -53,7 +52,7 @@ export default class LoginScreen extends React.Component {
 				.then(() => this.props.navigation.navigate('HomeScreen'))
 				.catch();
 		} catch (error) {
-			console.log(error.toString());
+			alert(error.toString());
 		}
 	};
   componentDidMount() {
